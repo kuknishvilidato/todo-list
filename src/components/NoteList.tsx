@@ -10,7 +10,7 @@ function NoteList({
 }) {
   return (
 
-    <div className="h-full w-full flex flex-col item-center">
+    <div className="h-full w-full flex flex-col items-center">
       {data.map((item, index) => {
         return <Note setData={setData} item={item} key={index} />;
       })}
