@@ -9,7 +9,8 @@ function NoteList({
   setData: React.Dispatch<React.SetStateAction<Data[]>>;
 }) {
   return (
-    <div className="h-full w-full flex flex-col items-center ">
+
+    <div className="h-full w-full flex flex-col item-center">
       {data.map((item, index) => {
         return <Note setData={setData} item={item} key={index} />;
       })}
