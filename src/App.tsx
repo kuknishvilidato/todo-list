@@ -12,7 +12,7 @@ export interface Data {
 
 function App() {
   const [data, setData] = useState<Data[]>([]);
-
+ 
   const [filterData, setFilterData] = useState<Data[]>([]);
   const [mainData, setMainData] = useState<Data[]>([]);
 
